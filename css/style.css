@@ -1,0 +1,417 @@
+
+
+*{
+    /* outline: solid 1px red; */
+}
+
+html, body {
+    width: 100%; 
+    /* height: 100%; */
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
+.content {
+    background-image: url("../img/image1.png");
+    background-attachment: fixed;
+}
+
+.content-main {
+    /* max-width: 100vw; */
+    background-color: rgb(0,0,0,0.4);
+}
+
+#top {
+    position:relative;
+    max-width: 100vw;
+    height: 1480px;
+    background:url("../img/background.png") no-repeat;
+    background-size : cover;
+}
+
+
+#main-logo {
+    position:absolute;
+    left: 33vw;
+    top: 41.64vh;
+}
+
+#main-logo-img {
+    width: 32.375vw;
+    height: auto;
+}
+
+#under-obj {
+    position:absolute;
+    left: 48.9583vw;
+    top: 91.12685185vh;
+}
+
+#under-obj-img {
+    position: absolute;
+    width:31.94px;
+    height: auto;
+    animation:motion 0.5s linear 0s infinite alternate;
+}
+
+@keyframes motion {
+    0% {margin-top: 0px;}
+    100% {margin-top: 10px;}
+}
+
+.nav {
+    display: flex;
+    position:fixed;
+    width:100vw;
+    margin-left:6.47vw;
+    margin-top : 2.4vh;
+    transition: transform .3s;
+    z-index: 99;
+}
+
+#img-logo {
+    margin-right: 31.98vw;
+}
+
+.nav.hide {
+    transform: translateY(-100%);
+  }
+
+.navbar-toggle-btn {
+    position : absolute;
+    right:5.2vw;
+    top : 3.3vh;
+    color : white;
+    display: none;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+nav>ul li {
+    /* float: left; */
+    padding : 1vh 2.6vw;
+    opacity: 0.4;
+    transition: opacity 1s;
+}
+
+nav li:hover {
+    opacity: 1;
+}
+
+nav>ul li:first-child {
+    opacity: 1;
+}
+
+#nav-item1 {
+    width: 58.35px;
+    height: auto;
+}
+
+#nav-item2 {
+    width: 73.08px;
+    height: auto;
+}
+
+#nav-item3 {
+    width: 72.59px;
+    height: auto;
+}
+
+#nav-item4 {
+    width: 92.296px;
+    height: auto;
+}
+
+#top-logo {
+    margin-top : 3.3vh;
+    margin-left:4vw;
+    /* margin-left:3px; */
+}
+
+#top-logo-img {
+    width: 100px;
+    height: auto;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    top:6.25vh;
+    /* left:20.36vw; */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    position: relative;
+    height:260px;
+    color: #565656;
+    width: 67.06%;
+    margin: auto;
+    /* background-color: #434040; */
+}
+
+.section {
+    display: block;
+}
+
+.f-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.f-text{
+    font-family: 'Apple SD Gothic Neo UL';
+    font-style: normal;
+    font-weight: 300;
+    font-size:0.8rem;
+    font-weight:300px;
+}
+
+a {
+    color : white;
+    text-decoration: none;
+}
+
+.slogan {
+    position:relative;
+    background-color: white;
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+.slogan-text {
+    position:absolute;
+    top:140px;
+    left:17.96vw;
+}
+
+#second {
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.s-content {
+    height: 100vh;
+    position: relative;
+    
+}
+
+.s-content2 {
+    position: relative;
+    height: auto;
+}
+
+.about-text {
+    color: #fff;
+    margin-left:17.96vw;
+}
+
+.main-text {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 5rem;
+    color:#fff;
+    margin-bottom: 5vh;
+}
+
+.sub-main-text {
+    font-family: 'Apple SD Gothic Neo UL';
+    font-size: 1rem;
+    line-height: 4.62vh;
+}
+
+.mar {
+    height: 14.07vh;
+}
+
+.big-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 67.06%;
+    margin: auto;
+    /* margin-left:12.96vw; */
+    margin-bottom:42px;
+}
+
+.f-content {
+    /* width: 343px; */
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.sub-title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color:#393939;
+}
+
+.f-img {
+    margin-top:4.9vh;
+    /* width:105.67px; */
+    height:auto;
+}
+
+#f-img {
+    position: absolute;
+    right: 0px;
+}
+
+.sub-text {
+    color: #565656;
+    font-family: 'Apple SD Gothic Neo L';
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top:4.25vh;
+}
+
+
+
+.gray-box {
+    width: 67.06%;
+    height: a;
+    margin:auto;
+    /*background:url("../img/mask group2.png") no-repeat;*/
+    margin-bottom: 20px;
+}
+
+#third {
+    background-color: #f5f5f5;
+}
+
+.way-content {
+    margin-top: 12.31vh;
+    width: 67.06%;
+    height: 80%;
+    margin:auto;
+    color: #393939;
+}
+
+.f-slogan {
+    width:300px;
+}
+
+.way {
+    font-family: 'Apple SD Gothic Neo EB';
+    font-size: 50px;
+}
+
+.mab{
+    position:relative;  height: 0; margin:0; margin-bottom:55.92vh;}
+iframe{position:absolute; left:0; top:0; width: 67.06vw; height: 50.92vh;}
+
+.m-section {
+    margin-bottom: 19px;
+}
+
+.m-title {
+    font-family: 'Apple SD Gothic Neo EB';
+    font-size: 1rem;
+    color:#393939;
+}
+
+.m-text {
+    font-family: 'Apple SD Gothic Neo UL';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    color:#707070;
+}
+
+#fourth {
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    background-image: url("../img/image2.png");
+    background-attachment: fixed;
+}
+
+.b {
+    background-color: rgb(0,0,0,0.4);
+    width: 100%;
+    height:100%;
+}
+
+.web-title {
+    position:absolute;
+    top:29.81vh;
+    left:17.96vw;
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 4rem;
+    color:white;
+}
+.web-btn {
+    position:absolute;
+    top:55vh;
+    left:17.96vw;
+    width:125px;
+    height:54px;
+    background-color: rgb(0,0,0,0);
+    border-color: white;
+    font-family: 'Apple SD Gothic Neo';
+    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+}
+
+.web-btn:hover {
+    background-color: white;
+    color:black;
+    transition: all 2s;
+}
+
+.bar {
+    opacity: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 16.2vw;
+}
+
+#text-logo {
+    width:352.8px;
+    height: auto;
+}
+
+@media screen and (max-width:563px) {
+    .f-slogan {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .web-title {
+        top:12.68vh;
+    }
+    .web-btn {
+        top:80vh;
+    }
+}
+
+@media screen and (max-width:547px) {
+    .web-title {
+        top:2.68vh;
+    }
+    .web-btn {
+        top:85vh;
+    }
+}

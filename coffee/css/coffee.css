@@ -1,0 +1,346 @@
+*{
+    /* outline: solid 1px red; */
+}
+
+body, html {
+    width: 100%; 
+    /* height: 100%; */
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    background-color: #f5f5f5;
+}
+
+.nav {
+    display: flex;
+    position:fixed;
+    width:100%;
+    margin-left:6.47vw;
+    margin-top : 2.4vh;
+    transition: transform .3s;
+    z-index: 99;
+}
+
+#img-logo {
+    margin-right: 31.98vw;
+}
+
+.nav.hide {
+    transform: translateY(-100%);
+  }
+
+.navbar-toggle-btn {
+    position : absolute;
+    right:5.2vw;
+    top : 3.3vh;
+    color : white;
+    display: none;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+nav>ul li {
+    /* float: left; */
+    padding : 1vh 2.6vw;
+    opacity: 0.4;
+    transition: opacity 1s;
+}
+
+nav li:hover {
+    opacity: 1;
+}
+
+nav>ul li:nth-child(2) {
+    opacity: 1;
+}
+
+#nav-item1 {
+    width: 58.35px;
+    height: auto;
+}
+
+#nav-item2 {
+    width: 73.08px;
+    height: auto;
+}
+
+#nav-item3 {
+    width: 72.59px;
+    height: auto;
+}
+
+#nav-item4 {
+    width: 92.296px;
+    height: auto;
+}
+
+#top-logo {
+    margin-top : 3.3vh;
+    margin-left:4vw;
+    /* margin-left:3px; */
+}
+
+#top-logo-img {
+    width: 138.168px;
+    height: auto;
+}
+
+#top {
+    position: relative;
+    background: url("../../img/coffee-back.png") no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 130vh;
+}
+
+.b {
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 100%;
+    background-attachment: fixed;
+    height: 100%;
+    
+}
+
+.main-text {
+    position:absolute;
+    top:32.79vh;
+    left:19.16vw;
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.5rem;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    top:6.25vh;
+    /* left:20.36vw; */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    position: relative;
+    height:260px;
+    color: #565656;
+    width: 67.06%;
+    margin: auto;
+    /* background-color: #434040; */
+}
+
+.section {
+    display: block;
+}
+
+.f-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.f-text{
+    font-family: 'Apple SD Gothic Neo UL';
+    font-style: normal;
+    font-weight: 300;
+    font-size:0.8rem;
+    font-weight:300px;
+}
+
+#second {
+    background-color: #f5f5f5;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.mar {
+    height:11.2vh;
+    background-color: #f5f5f5;
+}
+
+.s-content {
+    display: block;
+    width: 67%;
+    margin: auto;
+}
+
+.s-section {
+    margin-bottom:154px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.s-title {
+    font-family: 'Helvetica';
+    font-size: 6.5rem;
+    left:19.16vw;
+    margin-bottom: 4vh;
+    color:#929292;
+}
+
+.s-text {
+    font-family: 'Apple SD Gothic Neo UL';
+    width:515px;
+    line-height: 4.5vh;
+    color: #565656;
+}
+
+.s-img {
+    width: 400px;
+    height: 37vh;
+    background-color: #d9d9d9;
+}
+
+#third {
+    background: url("../../img/image3.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 1400px;
+}
+
+.big-content {
+    width: 67.08%;
+    margin: auto;
+}
+
+.t-section {
+    margin-top:26.1vh;
+    display: flex;
+    gap: 4.2vw;
+}
+
+.t-title {
+    font-family: 'Apple SD Gothic Neo T';
+    width: 160px;
+    font-size: 3rem;
+    color: white;
+}
+
+.t-text {
+    position: absolute;
+    bottom:7vh;
+    right:16.2vw;
+    color: #fff;
+    font-family: 'Apple SD Gothic Neo UL';
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: right;
+}
+
+.menu {
+    display: block;
+}
+
+.menu-text {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 350;
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.m-pride {
+    position:absolute;
+    right: 0px;
+    bottom:0px;
+}
+
+.menu-img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.mar2 {
+    height: 1vh;
+}
+
+.bar {
+    opacity: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 16.2vw;
+}
+
+#c1 {
+    width:400px;
+}
+
+#c2 {
+    width:317.6px;
+}
+
+#c3 {
+    width: 417px;
+}
+
+@media screen and (max-width:1920px) {
+    .menu-img {
+        width: auto;
+    }
+    #c1 {
+        width:auto;
+    }
+    
+    #c2 {
+        width:auto;
+    }
+    
+    #c3 {
+        width: auto;
+    }
+    .s-text {
+        width:610px;
+        /* font-size: 1.2rem; */
+    }
+
+    .menu-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1536px) {
+    #c1 {
+        width:400px;
+    }
+    
+    #c2 {
+        width:317.6px;
+    }
+    
+    #c3 {
+        width: 417px;
+    }
+
+    .s-text {
+        width: 515px;
+        /* font-size: 1rem; */
+    }
+    .menu-img {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -235,24 +235,13 @@ footer {
     right: 16.2vw;
 }
 
-#c1 {
-    width:400px;
-}
-
-#c2 {
-    width:317.6px;
-}
-
-#c3 {
-    width: 417px;
-}
-
 @media screen and (max-width:1920px) {
     .menu-img {
         width: auto;
     }
-    #c1 {
-        width:auto;
+
+    .s-img {
+        width: auto;
     }
     
     #c2 {
@@ -274,16 +263,8 @@ footer {
 }
 
 @media screen and (max-width:1536px) {
-    #c1 {
-        width:400px;
-    }
-    
-    #c2 {
-        width:317.6px;
-    }
-    
-    #c3 {
-        width: 417px;
+    .s-img {
+        width:416.8px;
     }
 
     .s-text {

@@ -38,6 +38,14 @@ html::-webkit-scrollbar {
     left:31.29vw;
 }
 
+#main-p2 {
+    width: 12.41vw;
+}
+
+#main-p3 {
+    width: 9vw;
+}
+
 #under-obj {
     position:absolute;
     left: 48.9583vw;
